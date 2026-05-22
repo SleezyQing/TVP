@@ -191,6 +191,11 @@ body{
   color:#00f7ff;
 }
 
+.project-link{
+  color: white;
+  text-decoration: none;
+}
+
 .labs{
   padding:100px 10%;
 }
