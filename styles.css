@@ -200,6 +200,49 @@ body{
   padding:100px 10%;
 }
 
+.project-folders{
+  padding:120px 10%;
+}
+
+.folder-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:30px;
+}
+
+.folder-card{
+  background:rgba(255,255,255,0.05);
+  border-radius:20px;
+  padding:40px;
+  text-align:center;
+  transition:0.5s;
+  border:1px solid rgba(255,255,255,0.1);
+  text-decoration:none;
+  color:white;
+}
+
+.folder-card:hover{
+  transform:translateY(-10px) scale(1.05);
+  box-shadow:0 0 30px #00f7ff;
+  background:rgba(0,247,255,0.1);
+}
+
+.folder-card i{
+  font-size:3.5rem;
+  color:#00f7ff;
+  margin-bottom:20px;
+}
+
+.folder-card h3{
+  color:#00f7ff;
+  margin-bottom:15px;
+}
+
+.folder-card p{
+  color:#aaa;
+  font-size:0.95rem;
+}
+
 .lab-container{
   display:flex;
   flex-wrap:wrap;
